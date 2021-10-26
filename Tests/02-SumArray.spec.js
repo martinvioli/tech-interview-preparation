@@ -14,7 +14,7 @@ describe("Sumarray(arr, n)", function () {
 
   describe("Extra: unordered array", function() {
     it("should return true when there is a combination of two numbers that sums n", function () {
-      expect(SumArray([5,2,9,4], 9)).to.equal(true);
+      expect(SumArray([4, 2, 9, 5], 7)).to.equal(true);
     });
     it("should return false when no combination of two numbers sums n", function () {
       expect(SumArray([5, 2, 9, 4], 12)).to.equal(false);
